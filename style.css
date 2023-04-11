@@ -294,17 +294,31 @@
     margin-bottom: 40px;
   }
 
-  .rectangle{
-    flex-direction: row;
-    align-items: center;
+  .rectangle {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 50%;
+    margin: 0 auto;
     margin-top: 200px;
-    width: 900px;
-    height: 296px;
     background: #2F2E41;
-    border-radius: 2px;
   }
+  
+  .left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
 
   .rectangle button{
     width: 100px;
