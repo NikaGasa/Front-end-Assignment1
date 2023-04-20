@@ -241,10 +241,14 @@
   .plan.premium:hover h1{
     color: white;
   }
-  .plan.premium:hover h1 b{
-    color: white;
-  }
-  
+  .plan.enterprise:hover .pre {
+  color: white;
+}
+.pre {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
 
 
   .plan.enterprise {
