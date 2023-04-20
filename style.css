@@ -266,9 +266,14 @@
     color: white;
   }
   
-  .plan.enterprise:hover h1 b{
-    color: white;
-  }
+.plan.enterprise:hover .pre {
+  color: white;
+}
+.pre {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
 
   .plan.enterprise:hover button{
     color: #6C63FF;
